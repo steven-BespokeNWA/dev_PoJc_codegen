@@ -1,0 +1,36 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  min-width: 0;
+  padding: 0px;
+}
+.headerPartner {
+  width: 100%;
+  height: auto;
+  max-width: 240%;
+  font-size: 10px;
+  color: var(--token-Le07ngBUPl2h);
+  min-width: 0;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .headerPartner {
+    display: none;
+  }
+}
+.partner {
+  width: 100%;
+  height: auto;
+  max-width: 240%;
+  min-width: 0;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .partner {
+    display: none;
+  }
+}

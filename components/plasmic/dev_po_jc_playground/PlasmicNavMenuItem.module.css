@@ -1,0 +1,35 @@
+.jostCosting {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  column-gap: 8px;
+  position: relative;
+  justify-self: flex-start;
+  grid-column-start: 1 !important;
+  grid-column-end: -1 !important;
+  padding: 8px;
+  border-style: solid;
+}
+.jostCostingitemBorderOn {
+  border-radius: 10px;
+  border-width: var(--token-ESawUsrqucOQ);
+  border-color: var(--token-2aHIw8xI62Xi);
+}
+.svg__cCc4G {
+  animation: none;
+  object-fit: cover;
+  width: var(--token-EYgle3RK4Be_);
+  height: var(--token-EYgle3RK4Be_);
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.text {
+  position: relative;
+  width: auto;
+  white-space: pre;
+  text-overflow: clip;
+  overflow: hidden;
+}
